@@ -1,4 +1,4 @@
 pypi-pfapi
 ==========
 
-Python module for the Pageformant API
+Python package for the Pageformant API
