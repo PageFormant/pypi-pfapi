@@ -36,8 +36,7 @@ class PageformantAPI():
             'LINK': link,
             'USERSPECID':'' })
         if userSpecID:
-            import hashlib
-            params['USERSPECID'] = hashlib.sha1(userSpecID).hexdigest()
+            params['USERSPECID'] = userSpecID
         self._sendAPIRequest(params)
         return self.lastError == None
 
